@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas em HTML</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir este site em vários dispositivos ou simplesmente aumente ou diminua o tamanho do navegador.</p>
+   
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzir Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em Html5</p>
+   
+    <audio preload="metadata" autoplay controls loop>
+    <source src="MultiMedia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="MultiMedia/guanacast-33.ogg" type="audio/ogg">
+    <source src="MultiMedia/guanacast-33.wav" type="audio/wav">
+    <p>infelizmente o navegador não consegue reproduzir o áudio. <a href="MultiMedia/guanacast-33.mp3">Clique aqui para fazer o download do arquivo mp3.</a></p>
+    </audio>
+</body>
+</html>
