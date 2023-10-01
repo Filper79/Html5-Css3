@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body { 
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 275px;
+}
+
+header h1 {
+    font-family: Passion One, arial, sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+header h1::first-letter {
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+section {
+    font-family: sriracha;
+    font-size: 3em;
+    text-align: justify;
+}
+
+section p{
+    margin: 30px;
+}
+
+section.primeira {
+    
+}
+
+section.segunda {
+    position: relative;
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+section.segunda p{
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    height: 600px;
+    width: 560px;
+    border: 1px solid black;
+    left: -5px;
+    top: 55px;
+
+}
+ section.quarta {
+    position: relative;
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+ }
+
+ section.quarta p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.504);
+    color: white;
+    text-align: justify;
+    height: 610px;
+    width: 580px;
+    border: 1px transparent black;
+    left: -5px;
+    top: 55px;
+ }
+
+ footer {
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+ }
+
+ footer p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px;
+ }
