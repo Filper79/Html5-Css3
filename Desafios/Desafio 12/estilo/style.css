@@ -45,8 +45,6 @@ header p {
     font-size: 1.1em;
 }
 
-
-
 section {
     font-family: sriracha;
     font-size: 3em;
@@ -55,10 +53,6 @@ section {
 
 section p{
     margin: 30px;
-}
-
-section.primeira {
-    
 }
 
 section.segunda {
