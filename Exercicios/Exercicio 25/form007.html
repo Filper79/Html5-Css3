@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    <form action="registro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icid">Cidades:</label>
+            <select name="Cidades" id="icid">
+            
+                <option value="" selected>--- Escolha ---</option>
+                    <optgroup label="Zona Norte">
+                        <option value="PT">Porto</option>
+                        <option value="Av">Aveiro</option>
+                        <option value="Brg">Braga</option>
+                    </optgroup>
+                
+                    <optgroup label="Zona Sul">
+                        <option value="Lis">Lisboa</option>
+                        <option value="Set">Setubal</option>
+                        <Option value="Far">Faro</Option>
+                    </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="ifrop">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Adminstrador</option>
+                <option>Contabilista</option>
+                <option>Funcionário Publíco</option>
+                <option>Canalizador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
